@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melvine Tech Talk</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-o2f+hNDt5rS3KH+syTzK3bTHABW1H9RQmhLtcXnXJCFdZLhAnv9fWX6t1K7W+xiI2W3d7o9Zt+VdZwdIDSAcig==" crossorigin="anonymous" ="no-referrer" />
+<style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #0b0b45;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            animation: slideUp 1s ease forwards;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: slideUp 1s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            color: #0b0b45;
+            margin-bottom: 10px;
+        }
+
+ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #0b0b45;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #0b0b45;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ff6600;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #0b0b45;
+            color: white;
+            padding: 10px;
+            border: none;
+            font-size: 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+button:hover {
+            background-color: #ff6600;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #ffffff;
+            background-color: hsla(275, 94%, 12%, 0.867);
+        }
+        body {
+        background-image: 
+        url('click.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+        button {
+            margin-top: 40px;
+            color: hwb(0 100% 0%);
+            text-decoration-color: aliceblue;
+        }
+        .footer
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to Melvine Tech Talk</h1>
+<p>Your hub for tech inspiration and opportunities</p>
+</header>
+
+<div style="text-align: center;">
+<img src="OIP.jpg" width="500" height="200">
+    </div>
+<br>
+
+
+<section id="about">
+<h2>About Me</h2>
+<p>Hi, I'm Melvine Tech Talk—a passionate tech enthusiast who loves everything about innovation, digital skills, and teaching others. I'm on a mission to empower individuals with tech knowledge that opens doors to income and impact.</p>
+</section>
+
+<section id="importance">
+<h2>Why Tech Matters</h2>
+<ul>
+<li>Tech drives innovation in every industry</li>
+<li>It opens up high-paying job opportunities</li>
+<li>Empowers individuals to start their own businesses</li>
+<li>Connects people globally and transforms lives</li>
+</ul>
+</section>
+
+<section id="courses">
+<h2>Courses That Can Fetch You Money</h2>
+<ul>
+<li>Web Development (HTML, CSS, JavaScript)</li>
+<li>Graphics Design</li>
+<li>Digital Marketing</li>
+<li>UI/UX Design</li>
+<li>Video Editing</li>
+<li>Cybersecurity Basics</li>
+<li>Animations</li>
+</ul>
+</section>
+<button>Click Here</button>
+<br>
+<p>OR</p>
+<br>
+<h2>Contact Me</h2>
+<form action="https://formspree.io/f/yourFormID" method="POST">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" required>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" required>
+ 
+<label for="message">Message:</label>
+<textarea name="message" id="message" rows="5" required></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+<p>You can also reach me via:</p>
+<p>Phone/WhatsApp: <a href="tel:+2347080999605"><i class="fas fa-phone"></i> +234-7080999605</a></p>
+<p>Call: <a href="tel:+2347033968106"><i class="fas fa-phone"></i> +234-7033968106</a></p>
+<p>Email: <a href="mailto:melvinetechtalk@gmail.com">melvinetechtalk@gmail.com</a></p>
+</section>
+
+<section id="socials">
+    <h2>Follow Me</h2>
+    <div class="social-icons">
+    <a href="https://facebook.com/MelvineConsole" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/Melvinetechtalk" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://tiktok.com/@Melvinetechtalk" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://t.me/Melvinetechtalk" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a href="https://twitter.com/melvinetechtalk" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    </div>
+    </section>
+    <section id="footer">
+<footer>
+<p>&copy; 2025 Melvine Tech Talk. All rights reserved.</p>
+</footer>
+</section>
+</body>
+</html>
